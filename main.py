@@ -6,8 +6,8 @@ from pydantic import BaseModel
 
 
 dynamo_client  =  boto3.resource(service_name = 'dynamodb',region_name = 'us-east-1',
-              aws_access_key_id = 'AKIAT2H2B7LBFAN3XXXX',
-              aws_secret_access_key = 'FV68aH4l1S8VSo3IotlH4t2+2MjGeBY7jAtYXXXX')
+              aws_access_key_id = 'XXXX',
+              aws_secret_access_key = 'XXXX')
 
 movie_table = dynamo_client.Table('Movies')
 
